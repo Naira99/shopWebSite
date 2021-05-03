@@ -1,0 +1,15 @@
+p {
+    line-height: 1.7;
+    font-size: 17px;
+}
+
+mat-form-field {
+    width: 100%;
+}
+
+.btn {
+    background: black;
+    color: white;
+    border-radius: 0;
+    padding: 10px 32px;
+}

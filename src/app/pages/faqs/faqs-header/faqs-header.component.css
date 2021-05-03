@@ -1,0 +1,25 @@
+* {
+    font-family: Jost;
+    color: white
+}
+
+.bg {
+    width: 100vw;
+    margin-bottom: 100px !important;
+    padding-top: 170px !important;
+    padding-bottom: 170px !important;
+    background: #c37d49 url(https://goyacdn.everthemes.com/demo-fashion/wp-content/uploads/sites/3/2019/05/black_dress.jpg);
+    background-position: center;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    min-height: 500px;
+}
+
+h1 {
+    font-family: Jost;
+}
+
+h4 {
+    font-family: Jost;
+    font-size: 1.5rem;
+}

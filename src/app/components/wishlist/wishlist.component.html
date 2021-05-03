@@ -1,0 +1,97 @@
+<section class="container text-center">
+    <div>
+        <header>
+            <h1>Wishlist</h1>
+        </header>
+
+        <div class="row padding ">
+            <p class="text-left">My wishlist on Goya Fashion</p>
+            <br>
+            <div class="col-12 col-md-12 res-list border-bottom pb-4 flex-wrap d-flex justify-content-between align-items-center mb-4" *ngFor="let list of wishlist">
+                <div>
+                    <button class="close-btn" (click)="removeProductInWishlist(list.id)">
+					<div class="closeInlist"></div>
+					</button>
+                </div>
+                <div>
+                    <img [src]="list.image[0]" alt="" class="mr-2">
+                </div>
+                <div>
+                    <h4>{{list.name}}</h4>
+                </div>
+                <div>
+                    <div class="price">
+                        <p>${{list.price}}.00</p>
+                    </div>
+                </div>
+                <div>
+                    <span class="stock">in Stock</span>
+                </div>
+                <div class="data">
+                    <span class="text-left">
+						Added on: April 10, <br>2021
+					</span>
+                    <div class="addToCart">
+                        <button mat-raised-button (click)="wishlistAddToCart(list)">Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row res-wishlist">
+            <div *ngFor="let list of wishlist">
+                <div class=" border-bottom mb-5  ">
+
+                    <div class=" col-lg-12 mt-4 res">
+                        <button class="close-btn" (click)="removeProductInWishlist(list.id)">
+                    <div class="closeInlist"></div>
+                    </button>
+                    </div>
+                    <div class="col-lg-12">
+                        <img [src]="list.image[0]">
+
+                    </div>
+                    <div class="col-lg-12 mb-2">
+                        <h4>{{list.name}}</h4>
+                    </div>
+                    <div class="col-lg-12 mb-2">
+                        <h4>{{list.price}}.00</h4>
+                    </div>
+                    <div class="col-lg-12 mb-2">
+                        <span class="stock">in Stock</span>
+                    </div>
+                    <div class="data col-lg-12 mb-2">
+                        <span class="text-left">
+                        Added on: April 10, <br>2021
+                    </span>
+                        <div class="addToCart">
+                            <button mat-raised-button (click)="wishlistAddToCart(list)">Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div *ngIf="emptyWishlist" class="text-center">
+            <hr>
+            <h2>No products added to the wishlist</h2>
+            <hr>
+        </div>
+
+        <div class="social-site text-center">
+            <h4>Share on:</h4>
+            <div class=" d-flex justify-content-center">
+                <a><i class="fa fa-facebook"></i></a>
+                <a><i class="fa fa-twitter"></i></a>
+                <a><i class="fa fa-pinterest"></i></a>
+                <a><i class="fa fa-envelope-o"></i></a>
+                <a><i class="fa fa-whatsapp"></i></a>
+            </div>
+
+        </div>
+
+    </div>
+</section>

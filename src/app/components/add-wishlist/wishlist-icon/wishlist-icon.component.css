@@ -1,0 +1,13 @@
+.mat-badge-content {
+    background: rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+@media screen and (max-width:900px) {
+    .mat-badge-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 0px!important;
+    }
+}

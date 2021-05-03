@@ -1,0 +1,46 @@
+h1,
+p {
+    font-family: Jost;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100vh;
+}
+
+input {
+    background: white
+}
+
+svg:hover {
+    cursor: pointer;
+    background: #eee;
+    border-radius: 50px;
+}
+
+
+/* Firefox */
+
+.close-dialog button {
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.close-dialog {
+    transition: transform 0.5 all;
+}
+
+.close-btn {
+    padding: 16px;
+    position: absolute;
+    border-radius: 50px;
+    width: 28px;
+    right: 0;
+    cursor: pointer;
+}
+
+.btn {
+    width: 100%;
+    padding: 14px;
+}

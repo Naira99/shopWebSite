@@ -1,0 +1,20 @@
+<mat-toolbar>
+    <div class="social-icon">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+    </div>
+    <mat-nav-list fxLayout='row'>
+        <a mat-list-item [routerLink]="['/about-us']">About Us</a>
+        <a mat-list-item [routerLink]="['/wishlist']">Wishlist</a>
+        <a mat-list-item [routerLink]="['/contact']">Contact</a>
+    </mat-nav-list>
+    <span class="example-spacer"></span>
+    <div class="select">
+        <select>
+        <option>English</option>
+        <option>France</option>
+        <option>Rus</option>
+    </select>
+    </div>
+</mat-toolbar>

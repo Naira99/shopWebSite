@@ -1,0 +1,39 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input {
+    border: none;
+    outline: none;
+    width: 50px;
+}
+
+input[type=number] {
+    width: 20px;
+}
+
+.section {
+    display: grid;
+    align-content: space-between;
+    height: 100vh;
+}
+
+button {
+    width: 100%
+}
+
+.empty-cart {
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    width: 100%;
+}

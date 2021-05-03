@@ -1,0 +1,27 @@
+<section class="mb-5">
+    <header>
+        <h1>Search results: “{{searchProduct}}”</h1>
+    </header>
+
+    <div class="container mb-5 mt-5" *ngIf="searchProduct">
+        <div class="row ">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-4  mb-3 " *ngFor="let product of products | appFilter:searchProduct" >
+                
+                <mat-card class="example-card shadow-none"  >
+                <img mat-card-image [src]="product.image[0]" imageSrc [imageMouseEnter]="product.image[1]" [imageMouseLeave]="product.image[0]" (click)="viewProduct(product.id)">
+                <div class="mat-card-icon">
+                <app-add-wishlist></app-add-wishlist>
+            <app-add-shoping-cart [productAddToCart]="product"></app-add-shoping-cart>
+        <app-view-product-icon [viewProduct]="product"></app-view-product-icon>
+    <app-view-product></app-view-product>
+</div>
+<mat-card-content>
+<mat-card-title>{{product.name}}</mat-card-title>
+<mat-card-subtitle>$ {{product.price}}</mat-card-subtitle>
+</mat-card-content>
+</mat-card>
+</div>
+</div>
+
+</div>
+</section>

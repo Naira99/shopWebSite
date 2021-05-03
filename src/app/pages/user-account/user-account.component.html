@@ -1,0 +1,15 @@
+<section>
+    <header class="text-center">
+        <h1>My account</h1>
+    </header>
+    <section class="container">
+        <div *ngFor="let item of account">
+            <div class="d-flex align-items-center mt-3 mb-3">
+                <img src="../../../assets/img/user.jpg" style="width:100px">
+                <h1>{{item.email}}</h1>
+            </div>
+            <button mat-button class="btn btn-primary" (click)="logOut(item.id)">log out</button>
+        </div>
+
+    </section>
+</section>

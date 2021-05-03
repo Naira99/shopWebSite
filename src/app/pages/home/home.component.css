@@ -1,0 +1,81 @@
+* {
+    font-family: Jost;
+}
+
+.owl-carousel {
+
+    margin: 10% auto;
+}
+
+.slide-text {
+    top: 0;
+    z-index: 999;
+    position: absolute;
+    height: 100%;
+    width: 100%
+}
+
+.owl-carousel .owl-nav {
+    overflow: hidden;
+    height: 0px;
+}
+
+.owl-carousel .nav-btn {
+    height: 47px;
+    position: absolute;
+    width: 26px;
+    cursor: pointer;
+    top: 30% !important;
+}
+
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled {
+    pointer-events: none;
+    opacity: 0.2;
+}
+
+.owl-carousel .prev-slide:hover {
+    background-position: 0px -53px;
+}
+
+.owl-carousel .next-slide:hover {
+    background-position: -24px -53px;
+}
+
+.slide-text span {
+    width: 500px;
+}
+
+.slide-image {
+    height: 90vh;
+    object-fit: cover
+}
+
+.text-in-image {
+    position: absolute;
+    height: 100%;
+    padding: 0 80px;
+    width: 600px;
+    line-height: 1;
+}
+
+.text-in-image span {
+    font-size: 75px;
+    font-family: Jost;
+    color: #282828;
+}
+
+.example-box.cdk-drag-animating {
+    transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.example-chip .cdk-drop-list-dragging {
+    transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+@media (max-width:768px) {
+    .slide-text span {
+        font-size: 36px;
+        width: 242px;
+    }
+}

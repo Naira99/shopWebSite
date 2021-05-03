@@ -1,0 +1,8 @@
+<div class="loadProduct">
+    <div class="d-flex justify-content-center" *ngIf="!loadedMsg">
+        <button class="btn btn-outline-dark" (click)="loadMore()">Load More</button>
+    </div>
+    <div *ngIf="loadedMsg" class="text-center">
+        <p> All products loaded.</p>
+    </div>
+</div>

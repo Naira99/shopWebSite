@@ -1,0 +1,38 @@
+<section class="bg">
+    <div class="container">
+        <div class="row padding" *ngFor="let product of productList;let i=index">
+            <div class="col-lg-6 ">
+                <div class="d-flex">
+                    <div>
+                        <div *ngFor="let item of product.image">
+                            <div class="small-image mb-2">
+                                <img [src]="item" (click)="imageSrc(item)">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="big-image">
+                        <img [src]="product.image[0]" #image class="image-res">
+
+                    </div>
+                </div>
+                <div class="image-carousel">
+                    <owl-carousel [options]="carouselOptions" [items]="product.image" [carouselClasses]="['owl-theme', 'row', 'sliding']">
+                        <div class="item" *ngFor="let img of product.image">
+                            <img class="slide-image" [src]="img">
+
+                        </div>
+                    </owl-carousel>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <app-product-description [productList]="product"></app-product-description>
+            </div>
+        </div>
+
+    </div>
+</section>
+<div class="container mt-5">
+    <h1>Related products</h1>
+    <app-shop-displaying></app-shop-displaying>
+</div>

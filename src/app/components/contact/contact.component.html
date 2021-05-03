@@ -1,0 +1,74 @@
+<section>
+    <div class="row">
+        <div class="col-lg-6 map">
+            <div class="mapouter">
+                <div class="gmap_canvas"><iframe width="1080" height="1080" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    <a href="https://www.online-timer.net"></a><br>
+                    <style>
+                        .mapouter {
+                            position: relative;
+                            text-align: right;
+                            height: 800px;
+                            width: 100%;
+                        }
+                    </style><a href="https://www.embedgooglemap.net">google maps embed iframe generator</a>
+                    <style>
+                        .gmap_canvas {
+                            overflow: hidden;
+                            background: none!important;
+                            height: 800px;
+                            width: 100%;
+                        }
+                    </style>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 contact-us">
+            <div class="container mt-5 p-5 " data-aos="zoom-in" data-aos-duration="2000">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <h1>Visit Us</h1>
+                        <p>One Chase Manhattan Plaza<br> New York, NY 10005, USA<br> +1 554 883 2032</p>
+                    </div>
+                    <div>
+                        <h1>Get in Touch</h1>
+                        <p> Prism truffaut neutra blue bottle <br> letterpress plaid church-key.<br> hello@example.com
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div *ngIf="successfully" class="">
+                        <p>Form submitted successfully.</p>
+
+                        <p>A confirmation email was sent to {{emailRequest}}</p>
+                    </div>
+                    <form *ngIf="!successfully" [formGroup]="submitForm" (ngSubmit)="sendEmail($event)">
+
+                        <mat-form-field appearance="outline">
+                            <mat-label>Name *</mat-label>
+                            <input matInput type="text" formControlName="name">
+                            <mat-hint *ngIf="submitForm.controls['name'].invalid && submitForm.controls['name'].touched">This is a required field.</mat-hint>
+                        </mat-form-field>
+
+
+                        <mat-form-field appearance="outline">
+                            <mat-label>Email *</mat-label>
+                            <input matInput type="email" formControlName="email">
+                            <mat-hint *ngIf="submitForm.controls['email'].invalid &&  submitForm.controls['email'].touched">This is a required field.</mat-hint>
+                        </mat-form-field>
+
+                        <mat-form-field appearance="outline">
+                            <mat-label>Message *</mat-label>
+                            <textarea matInput rows="10" cols="30" formControlName="message"></textarea>
+                            <mat-hint *ngIf="submitForm.controls['message'].invalid &&  submitForm.controls['message'].touched">This is a required field.</mat-hint>
+                        </mat-form-field>
+
+
+                        <input type="submit" [value]="submitBtn ?  'Submit': 'Processing...' " [disabled]="!submitBtn && submitForm.valid" class="mt-5" class="btn">
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

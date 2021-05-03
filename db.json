@@ -1,0 +1,407 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Cashmere Tank + Bag",
+      "description": "As timeless as a tank gets. A sleek, cropped fit for a modern look",
+      "image": [
+        "../../../../../assets/img/shop/women-cashmere-a4-768x768.jpg",
+        "../../../../../assets/img/shop/hover2.webp",
+        "../../../../../assets/img/shop/women-cashmere-a3-1000x1000.webp",
+        "../../../../../assets/img/shop/hover4.jpg",
+        "../../../../../assets/img/shop/women-cashmere-a2-768x768.jpg",
+        "../../../../../assets/img/shop/women-cashmere-a5-768x768.jpg"
+      ],
+      "price": 39
+    },
+    {
+      "id": 2,
+      "name": "Micro Form Bag",
+      "description": "Turns out the best things really do come in small packages.",
+      "image": [
+        "../../../../../assets/img/shop/woman-microbag-a1-1000x1000.webp",
+        "../../../../../assets/img/shop/hover1.jpg"
+      ],
+      "price": 98
+    },
+    {
+      "id": 3,
+      "name": "Hang Out Hoodie",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "image": [
+        "../../../../../assets/img/shop/woman-hoodie-a6-450x450.webp",
+        "../../../../../assets/img/shop/hover3.webp",
+        "../../../../../assets/img/shop/woman-hoodie-a2-768x768.jpg",
+        "../../../../../assets/img/shop/woman-hoodie-a3-768x768.jpg",
+        "../../../../../assets/img/shop/woman-hoodie-a4-768x768.jpg",
+        "../../../../../assets/img/shop/woman-hoodie-a5-768x768.jpg"
+      ],
+      "price": 36
+    },
+    {
+      "id": 4,
+      "name": "Basic Micro Rib Turtleneck",
+      "description": "Extra-fine ribbed pima cotton that’s stretchy, fitted, and just a touch sexy.",
+      "image": [
+        "../../../../../assets/img/shop/women-turtleneck-a3-450x450.jpg",
+        "../../../../../assets/img/shop/women-turtleneck-a1-1000x1000.webp",
+        "../../../../../assets/img/shop/women-turtleneck-a2-1000x1000.webp",
+        "../../../../../assets/img/shop/women-turtleneck-a4-1000x1000.webp",
+        "../../../../../assets/img/shop/women-turtleneck-a5-1000x1000.webp"
+      ],
+      "price": 79
+    },
+    {
+      "id": 5,
+      "name": "Cashmere Carpenter Beanie",
+      "description": "Grade-A cashmere, but with half the carbon footprint",
+      "image": [
+        "../../../../../assets/img/shop/men-beanie-a1-1000x1000.webp",
+        "../../../../../assets/img/shop/men-beanie-a2-1000x1000.webp",
+        "../../../../../assets/img/shop/men-beanie-a3-1000x1000.webp",
+        "../../../../../assets/img/shop/men-beanie-a4-1000x1000.webp"
+      ],
+      "price": 39
+    },
+    {
+      "id": 6,
+      "name": "Cotton Patch Pocket Short",
+      "description": "A summer throwback inspired by patch-pocket shorts of the ‘70s",
+      "image": [
+        "../../../../../assets/img/shop/women-shortpatch-a3-450x450.jpg",
+        "../../../../../assets/img/shop/women-shortpatch-a1.webp",
+        "../../../../../assets/img/shop/women-shortpatch-a2.webp",
+        "../../../../../assets/img/shop/women-shortpatch-a4.webp",
+        "../../../../../assets/img/shop/women-shortpatch-a5.webp"
+      ],
+      "price": 36
+    },
+    {
+      "id": 7,
+      "name": "Cream Square Shirt",
+      "description": "Roomy shirt with round neck and short sleeves. Contrasting front print.",
+      "image": [
+        "../../../../../assets/img/shop/men-shirt-a1-1000x1000.jpg",
+        "../../../../../assets/img/shop/men-shirt-a2-450x450.webp",
+        "../../../../../assets/img/shop/men-shirt-a4-768x768.jpg",
+        "../../../../../assets/img/shop/men-shirt-a5-768x768.jpg"
+      ],
+      "price": 19
+    },
+    {
+      "id": 8,
+      "name": "Cross Training Shoes",
+      "description": "Gluten-free trust fund poutine pug cloud bread narwhal master cleanse seitan selvage food truck.",
+      "image": [
+        "../../../../../assets/img/shop/nshoes-A1.jpg",
+        "../../../../../assets/img/shop/nshoes-A2.webp",
+        "../../../../../assets/img/shop/nshoes-A3.webp"
+      ],
+      "price": 299
+    },
+    {
+      "id": 9,
+      "name": "Crossover Leather Sandal",
+      "description": "Comfortable doesn't have to mean unflattering—and we made a shoe to prove it.",
+      "image": [
+        "../../../../../assets/img/shop/woman-sandal-a1.jpg",
+        "../../../../../assets/img/shop/woman-sandal-a3.webp",
+        "../../../../../assets/img/shop/woman-sandal-a2-1000x1000.webp"
+      ],
+      "price": 112
+    },
+    {
+      "id": 10,
+      "name": "Day Glove ReKnit",
+      "description": "The Day Glove ReKnit molds to your foot for a perfect, custom fit",
+      "image": [
+        "../../../../../assets/img/shop/woman-dayglove-a2-450x450.jpg",
+        "../../../../../assets/img/shop/woman-dayglove-a4-450x450.webp"
+      ],
+      "price": 76
+    },
+    {
+      "id": 11,
+      "name": "Double-Gauze Relaxed Shirt",
+      "description": "Perfect for those days you’d rather stay in, but can’t.",
+      "image": [
+        "../../../../../assets/img/shop/women-relaxedshirt-a3-450x450.webp",
+        "../../../../../assets/img/shop/women-relaxedshirt-a1-768x768.jpg",
+        "../../../../../assets/img/shop/women-relaxedshirt-a2-1000x1000.jpg",
+        "../../../../../assets/img/shop/women-relaxedshirt-a4-768x768.jpg"
+      ],
+      "price": 38
+    },
+    {
+      "id": 12,
+      "name": "Elegant Oxford Blazer",
+      "description": "Long sleeve blazer with lapel collar. Front welt pockets at chest and hip. Middle back vent. Front button closure.",
+      "image": [
+        "../../../../../assets/img/shop/men-suit-A1.webp",
+        "../../../../../assets/img/shop/men-suit-A2.jpg",
+        "../../../../../assets/img/shop/men-suit-A3.webp",
+        "../../../../../assets/img/shop/men-suit-A4.webp"
+      ],
+      "price": 79
+    },
+    {
+      "id": 13,
+      "name": "GoWeave High-Neck Tank",
+      "description": "Dress it up with trousers, or keep it casual with denim.",
+      "image": [
+        "../../../../../assets/img/shop/women-highneck-a1-450x450.jpg",
+        "../../../../../assets/img/shop/women-highneck-a4-450x450.webp"
+      ],
+      "price": 29
+    },
+    {
+      "id": 14,
+      "name": "Khaki Survival Shirt",
+      "description": "Relaxed fit overshirt with lapel collar and long cuffed sleeves. Washed effect. Front patch pockets with flaps. Side vents at hem. Front metal button closure..",
+      "image": [
+        "../../../../../assets/img/shop/men-shirtgreen-a3-1000x1000.jpg",
+        "../../../../../assets/img/shop/men-shirtgreen-a2-1000x1000.webp",
+        "../../../../../assets/img/shop/men-shirtgreen-a1-1000x1000.webp",
+        "../../../../../assets/img/shop/men-shirtgreen-a4-1000x1000.webp"
+      ],
+      "price": 39
+    },
+    {
+      "id": 15,
+      "name": "Kilburn Travel Speaker",
+      "description": "This speaker packs a solid punch despite its pint-sized frame that will immerse you in your music, indoors or out.",
+      "image": [
+        "../../../../../assets/img/shop/speaker-b1-450x450.jpg",
+        "../../../../../assets/img/shop/speaker-b3-768x768.jpg"
+      ],
+      "price": 299
+    },
+    {
+      "id": 16,
+      "name": "Light Day Loafer",
+      "description": "A cushioned insole and elasticized back for extra comfort.",
+      "image": [
+        "../../../../../assets/img/shop/woman-dayloafer-a1-1000x1000.webp",
+        "../../../../../assets/img/shop/woman-dayloafer-a2-1000x1000.jpg",
+        "../../../../../assets/img/shop/woman-dayloafer-a4-1000x1000.webp",
+        "../../../../../assets/img/shop/woman-dayloafer-a5-1000x1000.webp"
+      ],
+      "price": 129
+    },
+    {
+      "id": 17,
+      "name": "Minimal Square Tote",
+      "description": "New square shape—same all-day hustle.",
+      "image": [
+        "../../../../../assets/img/shop/woman-daytote-a1-1000x1000.webp",
+        "../../../../../assets/img/shop/woman-daytote-a2-1000x1000.webp",
+        "../../../../../assets/img/shop/woman-daytote-a3-1000x1000.webp"
+      ],
+      "price": 129
+    },
+    {
+      "id": 18,
+      "name": "Oversized Blazer",
+      "description": "A roomy, menswear-inspired shape and modern look.",
+      "image": [
+        "../../../../../assets/img/shop/women-suit-A1-1000x1000.jpg",
+        "../../../../../assets/img/shop/women-suit-A2-1000x1000.webp",
+        "../../../../../assets/img/shop/women-suit-A3-1000x1000.webp",
+        "../../../../../assets/img/shop/women-suit-A4-1000x1000.webp",
+        "../../../../../assets/img/shop/women-suit-A5-1000x1000.webp"
+      ],
+      "price": 190
+    },
+    {
+      "id": 19,
+      "name": "ReNew Traveler Tote",
+      "description": "It works like a weekender but can easily roll up for no-fuss packing.",
+      "image": [
+        "../../../../../assets/img/shop/woman-traveltote-a1-1000x1000.webp",
+        "../../../../../assets/img/shop/woman-traveltote-a2-1000x1000.webp",
+        "../../../../../assets/img/shop/woman-traveltote-a3-1000x1000.webp",
+        "../../../../../assets/img/shop/woman-traveltote-a4-1000x1000.webp"
+      ],
+      "price": 76
+    },
+    {
+      "id": 20,
+      "name": "Tactical Crossbody Bag",
+      "description": "Camouflage print multi-pocket crossbody bag. Strap detail at exterior.",
+      "image": [
+        "../../../../../assets/img/shop/backpack-a1-1000x1000.webp",
+        "../../../../../assets/img/shop/backpack-a2-1000x1000.webp",
+        "../../../../../assets/img/shop/backpack-a3-1000x1000.webp",
+        "../../../../../assets/img/shop/backpack-a4-1000x1000.webp"
+      ],
+      "price": 23
+    },
+    {
+      "id": 21,
+      "name": "Tapered Square Toe Slingback",
+      "description": "Minimal straps and a modern square toe for a fun yet polished look",
+      "image": [
+        "../../../../../assets/img/shop/woman-slingback-a1-1000x1000.webp",
+        "../../../../../assets/img/shop/woman-slingback-a2-1000x1000.jpg",
+        "../../../../../assets/img/shop/woman-slingback-a3-1000x1000.webp",
+        "../../../../../assets/img/shop/woman-slingback-a4-1000x1000.webp"
+      ],
+      "price": 142
+    },
+    {
+      "id": 22,
+      "name": "Twill Cotton Short",
+      "description": "Because shorts should be comfortable..",
+      "image": [
+        "../../../../../assets/img/shop/women-short-a1-1000x1000.jpg",
+        "../../../../../assets/img/shop/women-short-a3-1000x1000.webp",
+        "../../../../../assets/img/shop/women-short-a4-1000x1000.webp",
+        "../../../../../assets/img/shop/women-short-a5-1000x1000.webp"
+      ],
+      "price": 48
+    },
+    {
+      "id": 23,
+      "name": "Washed Denim Shirt",
+      "description": "Slim fit shirt featuring lapel collar and long sleeves with buttoned cuffs. Front button closure",
+      "image": [
+        "../../../../../assets/img/shop/men-shirtblue-a1-1000x1000.webp",
+        "../../../../../assets/img/shop/men-shirtblue-a2-1000x1000.webp",
+        "../../../../../assets/img/shop/men-shirtblue-a3-1000x1000.webp"
+      ],
+      "price": 39
+    },
+    {
+      "id": 24,
+      "name": "Abstract Print Cotton Blouse",
+      "description": "Short V-neck shirt with lapel collar and long sleeves with pleated cuffs.",
+      "image": [
+        "../../../../../assets/img/shop/woman-abstract-a1-1000x1000.jpg",
+        "../../../../../assets/img/shop/woman-abstract-a2-768x768.jpg",
+        "../../../../../assets/img/shop/woman-abstract-a3-768x768.jpg"
+      ],
+      "price": 43
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "ngrig99@mail.ru",
+      "password": "123456789"
+    },
+    {
+      "email": "mane@mail.ru",
+      "password": "456987",
+      "id": 2
+    },
+    {
+      "email": "p@mail.ru",
+      "password": "1234567",
+      "id": 3
+    },
+    {
+      "email": "lilit@mail.ru",
+      "password": "123456789",
+      "id": 4
+    },
+    {
+      "email": "naira_grig_@mail.ru",
+      "password": "093045939",
+      "id": 5
+    }
+  ],
+  "account": [],
+  "cart": [],
+  "wishlist": [],
+  "faqs": [
+    {
+      "id": 1,
+      "title": "What Shipping Methods Are Available?",
+      "description": "Male evening subdue heaven Is, seas great creepeth under second evening from give theyre upon third give void bring fowl image years all. Cant life a. Dominion god which dont upon."
+    },
+    {
+      "id": 2,
+      "title": "What are your shipping and return policies?",
+      "description": "Wrote water woman of heart it total other. By in entirely securing suitable graceful at families improved. Zealously few furniture repulsive was agreeable consisted difficult. Collected breakfast estimable questions in to favourite it. Known he place worth words it as to. Spoke now noise off smart her ready.To shewing another demands to. Marianne property cheerful informed at striking at. Clothes parlors however by cottage on. In views it or meant drift to. Be concern parlors settled or do shyness address. Remainder northward performed out for moonlight. Yet late add name was rent park from rich. He always do do former he highly."
+    },
+    {
+      "id": 3,
+      "title": "Do You Ship Internationally?",
+      "description": "Wrote water woman of heart it total other. By in entirely securing suitable graceful at families improved. Zealously few furniture repulsive was agreeable consisted difficult. Collected breakfast estimable questions in to favourite it. Known he place worth words it as to. Spoke now noise off smart her ready.To shewing another demands to. Marianne property cheerful informed at striking at. Clothes parlors however by cottage on. In views it or meant drift to. Be concern parlors settled or do shyness address. Remainder northward performed out for moonlight. Yet late add name was rent park from rich. He always do do former he highly."
+    },
+    {
+      "id": 4,
+      "title": "What Payment Methods Are Accepted?",
+      "description": "Male evening subdue heaven Is, seas great creepeth under second evening from give theyre upon third give void bring fowl image years all. Cant life a. Dominion god which dont upon."
+    },
+    {
+      "id": 5,
+      "title": "Do you accept international credit cards?",
+      "description": "Wrote water woman of heart it total other. By in entirely securing suitable graceful at families improved. Zealously few furniture repulsive was agreeable consisted difficult. Collected breakfast estimable questions in to favourite it. Known he place worth words it as to. Spoke now noise off smart her ready.To shewing another demands to. Marianne property cheerful informed at striking at. Clothes parlors however by cottage on. In views it or meant drift to. Be concern parlors settled or do shyness address. Remainder northward performed out for moonlight. Yet late add name was rent park from rich. He always do do former he highly."
+    },
+    {
+      "id": 6,
+      "title": "Do you charge sales tax on any item?",
+      "description": "Wrote water woman of heart it total other. By in entirely securing suitable graceful at families improved. Zealously few furniture repulsive was agreeable consisted difficult. Collected breakfast estimable questions in to favourite it. Known he place worth words it as to. Spoke now noise off smart her ready.To shewing another demands to. Marianne property cheerful informed at striking at. Clothes parlors however by cottage on. In views it or meant drift to. Be concern parlors settled or do shyness address. Remainder northward performed out for moonlight. Yet late add name was rent park from rich. He always do do former he highly."
+    },
+    {
+      "id": 7,
+      "title": "I want to return my purchase! What do I do?",
+      "description": "Male evening subdue heaven Is, seas great creepeth under second evening from give theyre upon third give void bring fowl image years all. Cant life a. Dominion god which dont upon."
+    },
+    {
+      "id": 8,
+      "title": "How long does it take for me to get a refund?",
+      "description": "Wrote water woman of heart it total other. By in entirely securing suitable graceful at families improved. Zealously few furniture repulsive was agreeable consisted difficult. Collected breakfast estimable questions in to favourite it. Known he place worth words it as to. Spoke now noise off smart her ready.To shewing another demands to. Marianne property cheerful informed at striking at. Clothes parlors however by cottage on. In views it or meant drift to. Be concern parlors settled or do shyness address. Remainder northward performed out for moonlight. Yet late add name was rent park from rich. He always do do former he highly."
+    },
+    {
+      "id": 9,
+      "title": "How Can I Cancel Or Change My Order?",
+      "description": "Wrote water woman of heart it total other. By in entirely securing suitable graceful at families improved. Zealously few furniture repulsive was agreeable consisted difficult. Collected breakfast estimable questions in to favourite it. Known he place worth words it as to. Spoke now noise off smart her ready.To shewing another demands to. Marianne property cheerful informed at striking at. Clothes parlors however by cottage on. In views it or meant drift to. Be concern parlors settled or do shyness address. Remainder northward performed out for moonlight. Yet late add name was rent park from rich. He always do do former he highly."
+    }
+  ],
+  "journal": [
+    {
+      "id": 1,
+      "date": "April 27, 2019",
+      "title": "Brooklyn cold-pressed organic",
+      "image": "https://goyacdn.everthemes.com/demo-fashion/wp-content/uploads/sites/3/2019/04/close-up.jpg",
+      "description": "Offal yr portland iPhone shabby chic single-origin coffee try-hard activated charcoal jianbing af semiotics."
+    },
+    {
+      "id": 2,
+      "date": "March 30, 2019",
+      "title": "90’s sustainable photo booth",
+      "image": "https://goyacdn.everthemes.com/demo-fashion/wp-content/uploads/sites/3/2019/04/star.jpg",
+      "description": "Post with some featured products ready to buy."
+    },
+    {
+      "id": 3,
+      "title": "Sustainable tote bag hashtag",
+      "date": "March 30, 2019",
+      "image": "https://goyacdn.everthemes.com/demo-fashion/wp-content/uploads/sites/3/2019/03/sunny.jpg",
+      "description": "Post with some featured products ready to buy."
+    },
+    {
+      "id": 4,
+      "title": "Jean shorts echo park",
+      "date": "March 30, 2019",
+      "image": "https://goyacdn.everthemes.com/demo-fashion/wp-content/uploads/sites/3/2019/04/two-women.jpg",
+      "description": "Seitan narwhal unicorn, yuccie tumblr kickstarter four dollar toast slow-carb irony pickled vexillologist."
+    },
+    {
+      "id": 5,
+      "title": "Gluten-free activated charcoal austin",
+      "date": "March 30, 2019",
+      "image": "https://goyacdn.everthemes.com/demo-fashion/wp-content/uploads/sites/3/2019/05/guy_and_leaves.jpg",
+      "description": "Post Gallery Format. It has an slider gallery on the header."
+    },
+    {
+      "id": 6,
+      "title": "Mixtape hammock distillery",
+      "date": "March 30, 2019",
+      "image": "https://goyacdn.everthemes.com/demo-fashion/wp-content/uploads/sites/3/2019/03/guy.jpg",
+      "description": "Post Format Image. A single image on top. Similar to default standard post but with an image icon on the blog."
+    }
+  ]
+}

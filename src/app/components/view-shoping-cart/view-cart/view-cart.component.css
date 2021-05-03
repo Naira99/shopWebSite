@@ -1,0 +1,82 @@
+* {
+    font-family: Jost;
+}
+
+img {
+    max-width: 100px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px
+}
+
+.product-count {
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 15px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input {
+    border: none;
+    outline: none;
+    width: 50px;
+}
+
+input[type=number] {
+    width: 20px;
+}
+
+.section {
+    display: grid;
+    align-content: space-between;
+    height: 100vh;
+}
+
+button {
+    width: 100%
+}
+
+.close-btn {
+    padding: 16px;
+    position: absolute;
+    border-radius: 50px;
+    width: 28px;
+    right: 0;
+}
+
+.total {
+    border: 1px solid black;
+}
+
+.updateBtn {
+    width: 150px;
+}
+
+.updateBtn button {
+    width: 100%;
+    padding: 18px;
+    border: 1px solid black;
+}
+
+.updateBtn button:hover {
+    background: none;
+    color: black;
+}

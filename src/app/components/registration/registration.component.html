@@ -1,0 +1,39 @@
+<mat-dialog-actions align="end">
+    <button mat-mini-fab color="pasic" mat-dialog-close>X</button>
+</mat-dialog-actions>
+<mat-dialog-content class="mat-typography" style="padding: 50px;" class="text-center">
+    <div [ngClass]="{ 'alert alert-success': submitted && success}" *ngIf="success &&  submitted" role="alert">
+        Registration successful
+    </div>
+    <div [ngClass]="{ 'alert alert-danger': submitted && alredyEmail }" *ngIf="alredyEmail &&  submitted">
+        Already email
+    </div>
+    <section>
+        <header>
+            <h1>Register</h1>
+        </header>
+
+        <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+            <div class="form-group">
+                <input placeholder="Email Addres*" formControlName="email" class="form-control" [ngClass]="{ 'is-invalid': submitted && formVal.email.errors }">
+                <div *ngIf="submitted && formVal.email.errors" class="invalid-feedback">
+                    <div *ngIf="formVal.email.errors.required">Email is required</div>
+                    <div *ngIf="formVal.email.errors">Email must be a valid email address</div>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="password" placeholder="password" formControlName="password" class="form-control" [ngClass]="{ 'is-invalid': submitted && formVal.password.errors }">
+                <div *ngIf="submitted && formVal.password.errors" class="invalid-feedback">
+                    <div *ngIf="formVal.password.errors.required">Password is required</div>
+                    <div *ngIf="formVal.password.errors.minlength">Password must be at least 6 characters</div>
+                </div>
+            </div>
+            <div class="form-group">
+                <button mat-flat-button class="btn btn-dark">Register</button>
+            </div>
+        </form>
+        <footer>
+            <span>Already a member? <span (click)="openLoginDialog()"  [mat-dialog-close]="alredyEmail &&  submitted" class="text-primary">Login</span> </span>
+        </footer>
+    </section>
+</mat-dialog-content>

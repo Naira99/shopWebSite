@@ -1,0 +1,39 @@
+section {
+    margin-top: 60px;
+}
+
+img {
+    object-fit: cover;
+    height: auto;
+}
+
+header h1 {
+    font-size: 37px;
+}
+
+header p {
+    color: #686868;
+}
+
+.mat-card-icon {
+    position: absolute;
+    top: 5px;
+    display: flex;
+    flex-direction: column;
+    right: 20px;
+    justify-content: space-between;
+    height: 118px;
+}
+
+.mat-card-icon *:not(:first-child) {
+    display: none;
+}
+
+mat-card:hover .mat-card-icon *:not(:first-child) {
+    display: block;
+}
+
+h2 {
+    font-size: 37px;
+    font-family: 'Jost';
+}

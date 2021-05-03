@@ -1,0 +1,24 @@
+<mat-dialog-content class="mat-typography" style="max-height: 86vh;max-width:70vw">
+    <section class="view-product-dialog">
+        <div class="row" *ngFor="let product of viewProductDialog">
+            <div class="col-lg-6">
+                <div>
+                    <owl-carousel [options]="carouselOptions" [items]="images" [carouselClasses]="['owl-theme', 'row', 'sliding']">
+                        <div class="item" *ngFor="let img of images">
+                            <img class="slide-image" [src]="img.image">
+                            <div class="slide-text"></div>
+                        </div>
+                    </owl-carousel>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <mat-dialog-actions align="end">
+                    <span class="close-btn" mat-mini-fab mat-dialog-close>
+                        <div class="close"></div>
+                    </span>
+                </mat-dialog-actions>
+                <app-product-description [productList]="product"></app-product-description>
+            </div>
+        </div>
+    </section>
+</mat-dialog-content>

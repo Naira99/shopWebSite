@@ -1,0 +1,22 @@
+.bg-image {
+    height: 426px;
+    background-image: url(../../../../assets/img/shop/banner-bag.webp);
+    background-size: cover;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+header {
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    font-family: Jost
+}

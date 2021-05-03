@@ -1,0 +1,118 @@
+h1,
+p {
+    font-family: Jost;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100vh;
+}
+
+.add-to-cart {
+    width: 100%;
+    background: black;
+    color: white;
+    padding: 16px;
+}
+
+input {
+    border: none;
+    outline: none;
+    width: 50px;
+    background: #f4f4f4;
+}
+
+input[type=number] {
+    width: 24px;
+}
+
+svg:hover {
+    cursor: pointer;
+    background: #eee;
+    border-radius: 50px;
+}
+
+.product-count {
+    /*width: 180px;*/
+    display: flex;
+    border: 1px solid #eee;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 15px;
+    padding: 18px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.social-site {
+    width: 150px;
+    justify-content: space-between;
+    margin-top: 24px;
+    font-size: 21px;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.close-dialog button {
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.close-dialog {
+    transition: transform 0.5 all;
+}
+
+.close-btn {
+    padding: 16px;
+    position: absolute;
+    border-radius: 50px;
+    width: 28px;
+    right: 0;
+    cursor: pointer;
+}
+
+.line {
+    width: 25px;
+    height: 2px;
+    background-color: #fff;
+    box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+    width: 100%;
+    padding: 14px;
+}
+
+.product-information {
+    line-height: 2;
+}
+
+.res-header {
+    width: 100%
+}
+
+.product-description {
+    line-height: 1.5;
+}
+
+.add-button {
+    width: 200px
+}
+
+.res-button {
+    width: 100%
+}
+
+@media screen and (max-width: 768px) {}

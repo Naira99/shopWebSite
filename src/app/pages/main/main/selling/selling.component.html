@@ -1,0 +1,31 @@
+<section>
+    <div class="container">
+        <header data-aos="fade-down" data-aos-duration="3000">
+            <h1>Best Selling</h1>
+            <p>Bushwick blue bottle photo booth copper mug marfa craft beer pour-over swag
+                <br> subway tile organic cloud bread.</p>
+        </header>
+        <section>
+            <div class="row">
+                <div class="col-6 col-sm-6 col-md-4 col-lg-4  mb-3" data-aos="zoom-in" data-aos-duration="1000" *ngFor="let product of productList">
+                    <mat-card class="example-card" style="box-shadow: none">
+                        <img mat-card-image [src]="product.image[0]" imageSrc [imageMouseEnter]="product.image[1]" [imageMouseLeave]="product.image[0]" (click)="viewProduct(product.id)">
+
+                        <div class="mat-card-icon">
+                            <app-add-wishlist [addWishlist]="product"></app-add-wishlist>
+                            <app-add-shoping-cart [productAddToCart]="product"></app-add-shoping-cart>
+                            <app-view-product-icon [viewProduct]="product"></app-view-product-icon>
+                            <app-view-product></app-view-product>
+                        </div>
+                        <mat-card-content>
+                            <mat-card-title>{{product.name}}</mat-card-title>
+                            <mat-card-subtitle>$ {{product.price}}.00</mat-card-subtitle>
+                        </mat-card-content>
+                    </mat-card>
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+</section>

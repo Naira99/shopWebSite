@@ -1,0 +1,18 @@
+<app-spinner></app-spinner>
+<app-header-nav></app-header-nav>
+<app-side-nav [sidenavTemplateRef]="navContent" [direction]="'left'" [navWidth]="280" [duration]="0.5"></app-side-nav>
+<app-view-shoping-cart [opencartTemplateRef]="cartContent" [direction]="'right'" [cartWidth]="windowWidth" [duration]="0.5"></app-view-shoping-cart>
+<app-header></app-header>
+<div class="main-container">
+    <section>
+        <router-outlet></router-outlet>
+    </section>
+</div>
+<ng-template #navContent>
+    <app-side-nav-content></app-side-nav-content>
+</ng-template>
+<ng-template #cartContent>
+    <app-shoping-cart-content></app-shoping-cart-content>
+</ng-template>
+<app-footer></app-footer>
+<app-scroll-btn></app-scroll-btn>

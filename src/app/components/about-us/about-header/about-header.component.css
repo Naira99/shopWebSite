@@ -1,0 +1,29 @@
+.bg {
+    background-image: url("https://goyacdn.everthemes.com/demo-fashion/wp-content/uploads/sites/3/2020/01/banner-cashmere.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-text {
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.horizontal-line {
+    display: block;
+    height: 133px;
+    content: " ";
+    width: 5px;
+    background: black;
+    margin-right: 30px
+}
+
+blockquote {
+    font-size: 20px;
+    line-height: 1.7;
+    width: 345px;
+}

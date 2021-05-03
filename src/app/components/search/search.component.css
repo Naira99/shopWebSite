@@ -1,0 +1,29 @@
+.example-form {
+  min-width: 150px;
+  max-width: 100%;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+section{
+padding:98px 215px 20px 215px;
+}
+input{
+	font-size: 35px;
+	width:100%;
+}
+mat-form-field{
+	width:100%;
+}
+@media screen and (max-width: 500px){
+	section{
+padding:20px;
+}
+}
+@media screen and (max-width: 768px){
+	section{
+padding:40px;
+}
+}

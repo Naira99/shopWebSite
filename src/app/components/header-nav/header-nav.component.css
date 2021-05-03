@@ -1,0 +1,45 @@
+mat-toolbar {
+    background-color: #282828;
+    color: white;
+    height: 45px;
+    width: 100vw!important;
+}
+
+mat-nav-list a {
+    color: #eeeeee;
+    font-weight: 400;
+    font-family: 'Jost', sans-serif;
+}
+
+mat-form-field {
+    width: 100px;
+    font-size: 16px
+}
+
+select {
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 17px;
+    font-family: 'Jost';
+}
+
+option {
+    color: black;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icon .fa {
+    margin-right: 35px;
+}
+
+@media screen and (max-width: 900px) {}

@@ -1,0 +1,26 @@
+<div class="side-nav-bar-content text-left overflow-auto">
+	<ul class="side-nav-bar-menu">
+		<li  mat-list-item *ngFor="let navItem of navItems | slice:0:8" (click)="onNavigationSelection(navItem)">{{ navItem.label }}</li>
+	</ul>
+	
+	<div class="sidebar-content d-flex flex-column text-left">
+		<button mat-button (click)="openLoginDialog()" *ngIf="login" class="text-left p-0">Login</button>
+		<button mat-button (click)="userAccount()" *ngIf="account" class="text-left p-0">My-account</button>
+		<app-search-icon></app-search-icon>
+		<app-wishlist-icon></app-wishlist-icon>
+	</div>
+	<div class="header-nav">
+		<div class="social-icon mt-2">
+		    <i class="fa fa-facebook"></i>
+		    <i class="fa fa-twitter"></i>
+		    <i class="fa fa-instagram"></i>
+		</div>
+		<div class="select mt-2">
+		    <select>
+		        <option>English</option>
+		        <option>France</option>
+		        <option>Rus</option>
+		    </select>
+		</div>
+	</div>	
+</div>

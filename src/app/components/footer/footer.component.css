@@ -1,0 +1,70 @@
+button {
+    height: 49px;
+    background: black;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    font-family: Jost;
+}
+
+mat-form-field {
+    width: 300px;
+}
+
+h1 {
+    font-size: 34px;
+}
+
+p {
+    font-size: 17px;
+    color: #686868;
+}
+
+h4 {
+    color: #282828;
+}
+
+.row>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.row>div a {
+    margin-bottom: 21px;
+    font-size: 18px;
+    color: #686868;
+    text-decoration: none;
+}
+
+.social-site i {
+    font-size: 20px;
+}
+
+.res-btn {
+    width: 111px;
+}
+
+.res-input {
+    width: 300px
+}
+
+.mat-form-field-wrapper {
+    padding-bottom: 0!important;
+}
+
+.mat-form-field {
+    width: 100%;
+}
+
+@media screen and (max-width:768px) {
+    .res-btn {
+        width: 100%
+    }
+    .res-input {
+        width: 100%
+    }
+}

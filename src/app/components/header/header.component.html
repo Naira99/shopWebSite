@@ -1,0 +1,34 @@
+<header fixedNavbar>
+    <nav fxLayout="row" fxLayoutAlign="space-between center" style="width:100vw">
+        <div fxLayout="row">
+            <div class="header-menu">
+                <span (click)="toggleSideNav()" class="menu-icon material-icons">menu</span>
+            </div>
+            <div class="navbar">
+                <span fxLayout="row" *ngFor="let link of links | slice:0:5;let i=index" style="padding-top: 0">
+                    <div class="box-e">
+                        <a  class="custom-underline"
+                        [style.textTransform]="i==3 ? 'uppercase':'capitalize'"
+
+                            mat-list-item
+                            (click)="onNavigationSelectionLIst(link)"
+                        >{{link.label}} </a>
+                    </div>
+                </span>
+            </div>
+        </div>
+        <div>
+            <img src="../../../assets/img/logo-light.webp" width="100px">
+        </div>
+        <div class="right-content">
+            <div fxLayout="row" fxLayoutAlign="space-between center">
+
+                <button mat-button (click)="openLoginDialog()" class="hidden" *ngIf="login">Login</button>
+                <button mat-button (click)="userAccount()" *ngIf="account" class="hidden">My-account</button>
+                <app-search-icon class="hidden"></app-search-icon>
+                <app-wishlist-icon class="hidden"></app-wishlist-icon>
+                <app-shoping-cart></app-shoping-cart>
+            </div>
+        </div>
+    </nav>
+</header>

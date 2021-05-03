@@ -1,0 +1,22 @@
+<section>
+    <div class="container text-center mt-5">
+        <header class="mb-5">
+            <h1>Journal</h1>
+        </header>
+        <div class="mb-5 " *ngFor="let item of journalList" data-aos="zoom-in-up" data-aos-duration="1000">
+
+            <figure>
+                <div class="box-e">
+                    <a [routerLink]="['/journal']" class="custom-underline">TRENDS.</a>
+                </div>
+                <h3>{{item.title}}</h3>
+                <span>By admin on {{item.date}}</span>
+
+                <div class="img-hover-zoom ">
+                    <img src="{{item.image}}" alt="This zooms-in really well and smooth">
+                </div>
+                <figcaption>{{item.description}}</figcaption>
+            </figure>
+        </div>
+    </div>
+</section>

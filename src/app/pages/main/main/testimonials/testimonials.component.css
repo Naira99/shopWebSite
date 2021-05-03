@@ -1,0 +1,59 @@
+header h1 {
+    font-size: 37px;
+}
+
+.owl-carousel {
+    margin: 10% auto;
+}
+
+
+.slide-text {
+    padding: 0 20px;
+}
+
+.slide-text span {
+    font-size: 20px;
+}
+
+section {
+    background: #f1e8df;
+}
+
+.owl-carousel .owl-nav {
+    overflow: hidden;
+    height: 0px;
+}
+
+.owl-carousel .nav-btn {
+    height: 47px;
+    position: absolute;
+    width: 26px;
+    cursor: pointer;
+    top: 30% !important;
+}
+
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled {
+    pointer-events: none;
+    opacity: 0.2;
+}
+
+.owl-carousel .prev-slide:hover {
+    background-position: 0px -53px;
+}
+
+.owl-carousel .next-slide:hover {
+    background-position: -24px -53px;
+}
+
+@media screen and (max-width: 500px) {
+    .slide-text span {
+        font-size: 16px
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .slide-text {
+        padding: 0 80px;
+    }
+}

@@ -1,0 +1,23 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.main-container section {
+    flex: 1;
+}
+
+app-header-nav {
+    display: block;
+}
+
+@media screen and (max-width: 900px) {
+    app-header-nav {
+        display: none
+    }
+}
+
+* {
+    font-family: 'Jost'
+}
