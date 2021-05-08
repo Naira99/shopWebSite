@@ -34,7 +34,9 @@ export class ContactComponent implements OnInit {
 
 
   public sendEmail(e: Event) {
-    this.submitBtn = false;
+    
+    if (this.submitForm.valid) {
+        this.submitBtn = false;
     e.preventDefault();
     let templateParams = {
       "user_id": "user_a0rPfiuul2ss5RjTI7dOM",
@@ -47,13 +49,16 @@ export class ContactComponent implements OnInit {
         reply_to: this.submitForm.value.email,
       }
     };
+  
     this.http.post('https://api.emailjs.com/api/v1.0/email/send', templateParams, { responseType: 'text' })
       .subscribe((result) => {
         this.successfully = true;
       }, (error) => {
         alert('Oops... ' + error.message + error);
-      }
-      );
+      });
+    }else{
+      return
+    }
   }
 }
 
